@@ -223,6 +223,7 @@ export default function Home() {
                 <h1>Wacky Wassies NFT</h1>
                 <p>hello i am smol ting translator.. it appearz u hav stumbled into wun of tha darker cornerz of tha inner net.. uWu.. dere is unfortunately no ternin bak now.. howeva wun of deez 3,333 zany cripto characters wil be sure to giv u an.. interesting tour thru tha metaverse </p>
                 <p>if u ar a Wacky Wassies Season 1 and/or 2 holder, u cen adopt a season 3 wassie for free! (+gas, fuk u)</p>
+                <p>1 free mint for each wassie you alreddy hold</p>
             </div>
         </div>
         <div className={styles.main_gallery}>
@@ -260,31 +261,6 @@ export default function Home() {
         	<img src='/Roadmap_GE.png'/>
         </div>
 
-        <div className={styles.main}>
-            <div style={{textAlign:'center', width:'100%'}} className={styles.main_wrapper2}>
-                <h3>Bonus</h3>
-                <p>1 free mint for each wassie you alreddy hold</p><br/><br/>
-                <p style={{display:'none'}}><b>Roadmap</b></p>
-                <div style={{display:'none'}} className={styles.stats}>
-                    <div className={styles.stats_item}>
-                        <p>25%</p>
-                        <span>Lorem Ipsum</span>
-                    </div>
-                    <div className={styles.stats_item}>
-                        <p>50%</p>
-                        <span>Lorem Ipsum</span>
-                    </div>
-                    <div className={styles.stats_item}>
-                        <p>75%</p>
-                        <span>Lorem Ipsum</span>
-                    </div>
-                    <div className={styles.stats_item}>
-                        <p>100%</p>
-                        <span>Lorem Ipsum</span>
-                    </div>
-                </div>
-            </div>
-        </div>
           <div id='faq' className={styles.faq}>
             <h1>FAQ</h1>
             <div className={styles.faq_box}>
