@@ -221,7 +221,8 @@ export default function Home() {
         <div id='about' className={styles.main}>
             <div className={styles.main_wrapper}>
                 <h1>Wacky Wassies NFT</h1>
-                <p>Wacky Wassies NFT is a 3,333 Generative collection of NFTs.</p><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet convallis nibh a ullamcorper. Donec sagittis turpis et iaculis mattis. Donec placerat sapien massa, sit amet euismod felis imperdiet imperdiet. Nam iaculis interdum leo, quis cursus odio elementum sed.</p>
+                <p>hello i am smol ting translator.. it appearz u hav stumbled into wun of tha darker cornerz of tha inner net.. uWu.. dere is unfortunately no ternin bak now.. howeva wun of deez 3,333 zany cripto characters wil be sure to giv u an.. interesting tour thru tha metaverse </p>
+                <p>if u ar a Wacky Wassies Season 1 and/or 2 holder, u cen adopt a season 3 wassie for free! (+gas, fuk u)</p>
             </div>
         </div>
         <div className={styles.main_gallery}>
@@ -248,9 +249,9 @@ export default function Home() {
                     <img style={{width:'75vh'}} src='/hero.jpeg'/>
                 </div>
                 <div styles={{textAlign:'initial'}}>
-                    <h1>Traits</h1>
-                    <p className={styles.intro_text} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet convallis nibh a ullamcorper. Donec sagittis turpis et iaculis mattis.</p>
-                    <p className={styles.intro_text} >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <h1>Why wassies</h1>
+                    <p className={styles.intro_text} >if this iz ur first wassie outing, an u ar interested in becummin an instant trillion air - u wil need to purchase wun of these inkredibly rar and value able jpgs at tha insanely lo lo price of 0.03 ETH .. iz unbelief akshilly</p>
+                    <p className={styles.intro_text} >treat ur wassies well plez.. or kill dem.. iz urz after all 8)</p>
                 </div>
             </div>
         </div>
@@ -260,11 +261,11 @@ export default function Home() {
         </div>
 
         <div className={styles.main}>
-            <div className={styles.main_wrapper2}>
-                <h3>About</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet convallis nibh a ullamcorper. Donec sagittis turpis et iaculis mattis. Donec placerat sapien massa.</p><br/><br/>
-                <p><b>Roadmap</b></p>
-                <div className={styles.stats}>
+            <div style={{textAlign:'center', width:'100%'}} className={styles.main_wrapper2}>
+                <h3>Bonus</h3>
+                <p>1 free mint for each wassie you alreddy hold</p><br/><br/>
+                <p style={{display:'none'}}><b>Roadmap</b></p>
+                <div style={{display:'none'}} className={styles.stats}>
                     <div className={styles.stats_item}>
                         <p>25%</p>
                         <span>Lorem Ipsum</span>
@@ -288,39 +289,33 @@ export default function Home() {
             <h1>FAQ</h1>
             <div className={styles.faq_box}>
                 <div onClick={() => {if(faqtab!=1){setFaqtab(1)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>What is an NFT?<span>{faqtab!=1 ? '+':'-'}</span></h4>
+                  <h4>Does the Wacky Wassies Season 3 project have any utility?<span>{faqtab!=1 ? '+':'-'}</span></h4>
                   {faqtab==1 ?
-                  <p>An NFT, or non-fungible token, is a unique, identifiable digital asset stored on the blockchain. An NFT could be a piece of digital artwork, a collectible, or even a digital representation of a real-life physical asset. Ownership of an NFT is easily and uniquely verifiable due to its public listing on the blockchain. </p>
+                  <p>yis, u wil feel all warm an fuzzy inside 8)</p>
                   :''}
                 </div>
                 <div onClick={() => {if(faqtab!=2){setFaqtab(2)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>What does it mean to mint an NFT?<span>{faqtab!=2 ? '+':'-'}</span></h4>
+                  <h4>How many unique Wacky Wassies will there be in Season 3?<span>{faqtab!=2 ? '+':'-'}</span></h4>
                   {faqtab==2 ?
-                  <p>Minting refers to the process of tokenizing a digital file, or a digital piece of art, and publishing it on the blockchain. Once an NFT is minted, you can verify ownership and buy, sell, and trade the NFT. </p>
+                  <p>3,333 ekztremely rar and unique wassies will be invadin tha inner net</p>
                   :''}
                 </div>
                 <div onClick={() => {if(faqtab!=3){setFaqtab(3)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>How much does it cost to mint a wassie?<span>{faqtab!=3 ? '+':'-'}</span></h4>
+                  <h4>How many Wacky Wassies can I mint?<span>{faqtab!=3 ? '+':'-'}</span></h4>
                   {faqtab==3 ?
-                  <p>Price will be the same for everyone, 0.03 + gas fees per mint</p>
+                  <p>az menny az ur hart desirez</p>
                   :''}
                 </div>
                 <div onClick={() => {if(faqtab!=4){setFaqtab(4)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>How do I mint?<span>{faqtab!=4 ? '+':'-'}</span></h4>
+                  <h4>How much to mint a Wacky Wassie?<span>{faqtab!=4 ? '+':'-'}</span></h4>
                   {faqtab==4 ?
-                  <p>After countdown has run out in the "Mint" section of the website, a mint button will pop up letting users mint up to 20x NFTs at once. Remember you must have enough ETH in your wallet otherwise the button will not work</p>
+                  <p>tha inkredibly lo price of only 0.03 ETH .. wow</p>
                   :''}
                 </div>
                 <div onClick={() => {if(faqtab!=5){setFaqtab(5)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>What can I do with my newly minted NFTs?<span>{faqtab!=5 ? '+':'-'}</span></h4>
+                  <h4>How do I purchase one of these rare artifacts?<span>{faqtab!=5 ? '+':'-'}</span></h4>
                   {faqtab==5 ?
-                  <p>You will become one of us and take part of all the reards we've got planned for holders, so stay tuned for more info! You can also sell your sad wassie in the secondary markets of OpenSea.</p>
-                  :''}
-                </div>
-                <div onClick={() => {if(faqtab!=6){setFaqtab(6)}else{setFaqtab(0)}}} className={styles.faq_wrapper}>
-                  <h4>When will the NFTs be revealed?<span>{faqtab!=6 ? '+':'-'}</span></h4>
-                  {faqtab==6 ?
-                  <p>We will be revealing each and everyone of the NFTs at the time of mint so waiting times should be max 5 min. Remember to refresh your metadata on the OpenSea page of your item!</p>
+                  <p>jus connect your ERC20 compatible wallet and click mint, selekt tha amount of wassies u wish to acquire, den approve tha transaction in ur preferred wallet! iz dat sinple!</p>
                   :''}
                 </div>
                 

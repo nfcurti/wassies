@@ -6,6 +6,7 @@
     "@next/next/no-sync-scripts":"off",
     "react/no-unescaped-entities":"off",
     "react/no-unknown-property":"off",
-    "react/jsx-no-target-blank":"off"
+    "react/jsx-no-target-blank":"off",
+    "jsx-a11y/alt-text":"off"
   }
 }
