@@ -239,7 +239,7 @@ export default function Home() {
             <span>3,333 Remaining</span><br/><br/><br/>
         	<p className={styles.main_mint_p}>After countdown ends, all 3,333 Wacky Wassies will be available to mint right away</p>
         	
-            <Countdown date={1642752737000} renderer={renderer}/>
+            <Countdown date={1641223980000} renderer={renderer}/>
             
 
         </div>
