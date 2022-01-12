@@ -18,6 +18,8 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [faqtab, setFaqtab] = useState(1);
 
+  const [sold, setSold] = useState(0);
+
   const _chainIdToCompare = 1; //Ethereum
   //const _chainIdToCompare = 1; //Rinkeby
   const sleep = async( ms) => {
@@ -72,6 +74,7 @@ export default function Home() {
 
       const maxSupply = await contract.methods.maxSupply().call();
       const totalSupply = await contract.methods.totalSupply().call();
+      setSold(totalSupply)
   }
 
       const requestAccountMetamask = async() => {
@@ -236,7 +239,7 @@ export default function Home() {
         </div>
         <div className={styles.main_mint}>
         	<h1>MINT YOUR OWN</h1>
-            <span>3,333 Remaining</span><br/><br/><br/>
+            <span>{3333-sold} Remaining</span><br/><br/><br/>
         	<p className={styles.main_mint_p}>After countdown ends, all 3,333 Wacky Wassies will be available to mint right away</p>
         	
             <Countdown date={1641223980000} renderer={renderer}/>
